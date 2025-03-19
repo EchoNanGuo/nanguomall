@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="da96e446-5a94-4a6c-b74f-e9b38a00aa1f" name="Changes" comment="" />
+    <list default="true" id="da96e446-5a94-4a6c-b74f-e9b38a00aa1f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,6 +18,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
@@ -39,6 +44,7 @@
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "Spring Boot.RenrenApplication.executor": "Run",
+    "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "D:/dev/backend/nanguomall/common-libs/src/main/java/top/nanguomm/common",
     "node.js.detected.package.eslint": "true",
@@ -133,7 +139,7 @@
       <option name="presentableId" value="Default" />
       <updated>1742312860024</updated>
       <workItem from="1742312864885" duration="1270000" />
-      <workItem from="1742314147803" duration="14678000" />
+      <workItem from="1742314147803" duration="14951000" />
     </task>
     <servers />
   </component>
