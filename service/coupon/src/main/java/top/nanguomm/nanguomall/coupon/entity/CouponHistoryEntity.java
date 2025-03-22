@@ -12,7 +12,7 @@ import lombok.Data;
  * 
  * @author nanguo
  * @email zhuyuqinss@gmail.com
- * @date 2025-03-19 22:12:17
+ * @date 2025-03-21 21:28:39
  */
 @Data
 @TableName("sms_coupon_history")

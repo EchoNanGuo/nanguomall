@@ -11,7 +11,7 @@ import java.util.Map;
  *
  * @author nanguo
  * @email zhuyuqinss@gmail.com
- * @date 2025-03-19 22:12:15
+ * @date 2025-03-21 21:28:37
  */
 public interface SeckillSessionService extends IService<SeckillSessionEntity> {
 

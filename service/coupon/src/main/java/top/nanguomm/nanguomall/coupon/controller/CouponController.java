@@ -2,8 +2,11 @@ package top.nanguomm.nanguomall.coupon.controller;
 
 import java.util.Arrays;
 import java.util.Map;
+import java.util.Objects;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -22,13 +25,24 @@ import top.nanguomm.common.utils.R;
  *
  * @author nanguo
  * @email zhuyuqinss@gmail.com
- * @date 2025-03-19 22:12:17
+ * @date 2025-03-21 21:28:38
  */
 @RestController
 @RequestMapping("coupon/coupon")
+@RefreshScope
 public class CouponController {
     @Autowired
     private CouponService couponService;
+
+    @Value("${coupon.user.name}")
+    private String name;
+    @Value("${coupon.user.age}")
+    private Integer age;
+
+    @RequestMapping("/test")
+    public R test() {
+        return Objects.requireNonNull(R.ok().put("name", name)).put("age", age);
+    }
 
     /**
      * 列表

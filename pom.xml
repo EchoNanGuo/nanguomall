@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>top.nanguomm</groupId>
+    <groupId>top.nanguomm.nanguomall</groupId>
     <artifactId>nanguomall</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <description>聚合工程</description>
@@ -14,5 +14,6 @@
     <modules>
         <module>service</module>
         <module>common-libs</module>
+        <module>gateway</module>
     </modules>
 </project>

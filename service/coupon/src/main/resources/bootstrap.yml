@@ -1,0 +1,49 @@
+spring:
+  profiles:
+    active: dev
+  application:
+    name: service-coupon
+
+---
+# dev
+spring:
+  profiles: dev
+  cloud:
+    nacos:
+      discovery:
+        server-addr: ${CLOUD_HOST}:8848
+        namespace: d4ebb850-b5ee-42a9-873d-78bb4b15286f
+      config:
+        server-addr: ${CLOUD_HOST}:8848
+        namespace: d4ebb850-b5ee-42a9-873d-78bb4b15286f
+        group: SERVICE_COUPON
+        file-extension: yml
+
+---
+# test
+spring:
+  profiles: test
+  cloud:
+    nacos:
+      discovery:
+        server-addr: test-url
+        namespace: 5034d15f-d4dc-4ffd-9c0a-0bd7738c118e
+      config:
+        server-addr: test-url
+        namespace: 5034d15f-d4dc-4ffd-9c0a-0bd7738c118e
+        group: SERVICE_COUPON
+        file-extension: yml
+---
+# prod
+spring:
+  profiles: prod
+  cloud:
+    nacos:
+      discovery:
+        server-addr: prod-url
+        namespace: fcf1a409-20a0-44f1-9688-6eedae4aa886
+      config:
+        server-addr: prod-url
+        namespace: fcf1a409-20a0-44f1-9688-6eedae4aa886
+        group: SERVICE_COUPON
+        file-extension: yml
