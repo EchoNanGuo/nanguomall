@@ -31,7 +31,7 @@
 
     <dependencies>
         <dependency>
-            <groupId>top.nanguomm</groupId>
+            <groupId>top.nanguomm.nanguomall</groupId>
             <artifactId>common-libs</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>

@@ -12,8 +12,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 import top.nanguomm.nanguomall.product.entity.SpuInfoEntity;
 import top.nanguomm.nanguomall.product.service.SpuInfoService;
-import top.nanguomm.common.utils.PageUtils;
-import top.nanguomm.common.utils.R;
+import top.nanguomm.nanguomall.common.utils.PageUtils;
+import top.nanguomm.nanguomall.common.utils.R;
 
 
 

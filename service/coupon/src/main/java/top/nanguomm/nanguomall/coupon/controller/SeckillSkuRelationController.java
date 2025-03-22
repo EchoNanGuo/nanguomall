@@ -12,8 +12,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 import top.nanguomm.nanguomall.coupon.entity.SeckillSkuRelationEntity;
 import top.nanguomm.nanguomall.coupon.service.SeckillSkuRelationService;
-import top.nanguomm.common.utils.PageUtils;
-import top.nanguomm.common.utils.R;
+import top.nanguomm.nanguomall.common.utils.PageUtils;
+import top.nanguomm.nanguomall.common.utils.R;
 
 
 

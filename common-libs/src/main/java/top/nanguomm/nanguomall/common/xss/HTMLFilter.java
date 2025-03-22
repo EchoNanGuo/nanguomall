@@ -1,4 +1,4 @@
-package top.nanguomm.common.xss;
+package top.nanguomm.nanguomall.common.xss;
 
 import java.util.*;
 import java.util.concurrent.ConcurrentHashMap;

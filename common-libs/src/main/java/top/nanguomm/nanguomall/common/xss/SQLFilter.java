@@ -6,10 +6,10 @@
  * 版权所有，侵权必究！
  */
 
-package top.nanguomm.common.xss;
+package top.nanguomm.nanguomall.common.xss;
 
 import org.apache.commons.lang.StringUtils;
-import top.nanguomm.common.exception.RRException;
+import top.nanguomm.nanguomall.common.exception.RRException;
 
 /**
  * SQL过滤

@@ -15,8 +15,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 import top.nanguomm.nanguomall.coupon.entity.CouponEntity;
 import top.nanguomm.nanguomall.coupon.service.CouponService;
-import top.nanguomm.common.utils.PageUtils;
-import top.nanguomm.common.utils.R;
+import top.nanguomm.nanguomall.common.utils.PageUtils;
+import top.nanguomm.nanguomall.common.utils.R;
 
 
 

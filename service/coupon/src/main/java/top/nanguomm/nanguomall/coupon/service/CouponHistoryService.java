@@ -1,7 +1,7 @@
 package top.nanguomm.nanguomall.coupon.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import top.nanguomm.common.utils.PageUtils;
+import top.nanguomm.nanguomall.common.utils.PageUtils;
 import top.nanguomm.nanguomall.coupon.entity.CouponHistoryEntity;
 
 import java.util.Map;

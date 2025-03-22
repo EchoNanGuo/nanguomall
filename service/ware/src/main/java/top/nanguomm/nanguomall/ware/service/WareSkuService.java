@@ -1,7 +1,7 @@
 package top.nanguomm.nanguomall.ware.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import top.nanguomm.common.utils.PageUtils;
+import top.nanguomm.nanguomall.common.utils.PageUtils;
 import top.nanguomm.nanguomall.ware.entity.WareSkuEntity;
 
 import java.util.Map;

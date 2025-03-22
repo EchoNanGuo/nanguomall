@@ -6,7 +6,7 @@
  * 版权所有，侵权必究！
  */
 
-package top.nanguomm.common.utils;
+package top.nanguomm.nanguomall.common.utils;
 
 /**
  * 常量
